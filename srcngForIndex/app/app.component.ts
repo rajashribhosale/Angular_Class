@@ -5,6 +5,15 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'app';
+
+export class AppComponent 
+{
+  sarr = [];
+  sname:string;
+
+  AddStudent()
+  {
+    this.sarr.push(this.sname);
+  }
+
 }

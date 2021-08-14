@@ -2,12 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { NgIfDemoComponent } from './ng-if-demo/ng-if-demo.component';
+import { MarvellousCompComponent } from './marvellous-comp/marvellous-comp.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NgIfDemoComponent
+    MarvellousCompComponent
   ],
   imports: [
     BrowserModule
